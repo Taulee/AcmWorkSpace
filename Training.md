@@ -6,4 +6,3 @@
 | [Moving Both Hands](https://codeforces.com/contest/1966/problem/C) | 4/27      | Div2-C | 别写思维了, 写一写正宗的 SG 吧!<br />把原序列去重排序, 让相邻两数的差值为新序列, 再从后往前跑 SG, 当某一位不为 1 时, 也要从 <x-1,before> ~ <1,before> 更新出来 |
 | [Permutation Game](https://codeforces.com/problemset/problem/1772/E) | 4/29      | 1700   | 思维水题                                                     |
 | [Lowbit](https://codeforces.com/problemset/gymProblem/103145/D) | 4/30      |        | 注意到每个数最多加 log 次, 就可以用统一的 *2 操作来维护, 所以建树维护, 同时特别标记每个数是否到达 100..00 状态, 没的话单独处理. |
-
