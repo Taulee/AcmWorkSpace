@@ -1,6 +1,6 @@
-| Contest | Date | Rank | Sloved | After Solved | To Do |
-| ------- | ---- | ---- | ------ | ------------ | ----- |
-|         |      |      |        |              |       |
+| Contest | Date | Rank | Sloved | After Solve | To Do |
+| ------- | ---- | ---- | ------ | ----------- | ----- |
+|         |      |      |        |             |       |
 
 
 
