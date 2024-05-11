@@ -9,3 +9,4 @@
 | [Reverse Card (Hard Version)](https://codeforces.com/contest/1972/problem/D2) | 5/7       | Div2-D2    | 傻逼数学                                                     |
 | [本初字符串](https://ac.nowcoder.com/acm/contest/82401/F)    | 5/10      | 牛客小白 F | 推出` len(t)` 为` len(s)` 的因子, 之后枚举 `len(t)` 长度, 先找出每位取最大贡献字符组成的 `t`,再从前往后依次尝试缩小 `t[i]`. |
 | [E.Increasing Subsequences](https://codeforces.com/problemset/problem/1922/E) | 5/11      | 1800       | 构造, STD::list 竟然是循环链表                               |
+| [Stars](http://poj.org/problem?id=2352)                      | 5/11      |            | 树状数组处理偏序, 毒瘤的 POJ ! ! !                           |
