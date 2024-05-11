@@ -8,3 +8,4 @@
 | [Lowbit](https://codeforces.com/problemset/gymProblem/103145/D) | 4/30      |            | 注意到每个数最多加 log 次, 就可以用统一的 *2 操作来维护, 所以建树维护, 同时特别标记每个数是否到达 100..00 状态, 没的话单独处理. **注意初始化和位移运算爆范围** |
 | [Reverse Card (Hard Version)](https://codeforces.com/contest/1972/problem/D2) | 5/7       | Div2-D2    | 傻逼数学                                                     |
 | [本初字符串](https://ac.nowcoder.com/acm/contest/82401/F)    | 5/10      | 牛客小白 F | 推出` len(t)` 为` len(s)` 的因子, 之后枚举 `len(t)` 长度, 先找出每位取最大贡献字符组成的 `t`,再从前往后依次尝试缩小 `t[i]`. |
+| [E.Increasing Subsequences](https://codeforces.com/problemset/problem/1922/E) | 5/11      | 1800       | 构造, STD::list 竟然是循环链表                               |
