@@ -11,3 +11,4 @@
 | [E.Increasing Subsequences](https://codeforces.com/problemset/problem/1922/E) | 5/11      | 1800       | 构造, STD::list 竟然是循环链表                               |
 | [Stars](http://poj.org/problem?id=2352)                      | 5/11      |            | 树状数组处理二维偏序, 毒瘤的 POJ ! ! !                       |
 | [F. Moving Points](https://codeforces.com/problemset/problem/1311/F) | 5/11      | 1900       | 不那么明显的二维偏序, 树状数组 + 离散化 处理                 |
+| [B. Flipping Game]()https://codeforces.com/gym/104459/problem/B | 5/12      |            | 蛋哥的绝妙 DP, `dp[tis][i]`维护当前字符串有多少与目标字符串不同, 转移时转移到所有的可能下一层`dp[nex][i]`, and 卡 log 时间,预处理出来 inv. |
