@@ -13,3 +13,4 @@
 | [F. Moving Points](https://codeforces.com/problemset/problem/1311/F) | 5/11      | 1900       | 不那么明显的二维偏序, 树状数组 + 离散化 处理                 |
 | [B. Flipping Game](https://codeforces.com/gym/104459/problem/B) | 5/12      |            | 蛋哥的绝妙 DP, `dp[tis][i]`维护当前字符串有多少与目标字符串不同, 转移时转移到所有的可能下一层`dp[nex][i]`, and 卡 log 时间,预处理出来 inv. |
 | [E.BaoBaoLovesReading](https://codeforces.com/gym/104459/problem/E) | 5/13      | 省赛金     | 树状数组维护每两个相同的书之间有多少种书, 种类大于 k 就要重新从书架上取, 前缀和同时维护 k=1~n 的答案. |
+| [P3810[模板]三维偏序](https://www.luogu.com.cn/problem/P3810) | 5/13      |            | cdq 套 树状数组处理, 也可以 cdq 套 cdq 处理                  |
