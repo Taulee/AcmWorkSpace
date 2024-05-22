@@ -18,3 +18,4 @@
 | [最大二分图匹配](https://www.luogu.com.cn/problem/P3386)     | 5/15      |               | 匈牙利板纸                                                   |
 | [P1129 [ZJOI2007] 矩阵游戏](https://www.luogu.com.cn/problem/P1129) | 5/15      | 提高+ / 省选− | 注意到, 交换行列等价, 就按黑色块的 x,y 坐标连边, 跑最大二分图 |
 | [K.Bracket Sequence](https://codeforces.com/gym/103486/problem/K) | 5/15      |               | 卡特兰板纸                                                   |
+| [神性之陨](https://ac.nowcoder.com/acm/problem/267934)       | 5/22      |               | 二维 dp, 考虑 `dp[i][j]`记录 i 列以 j 为下端点的可行区间, 分类转移 |
