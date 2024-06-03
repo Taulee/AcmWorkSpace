@@ -20,3 +20,4 @@
 | [K.Bracket Sequence](https://codeforces.com/gym/103486/problem/K) | 5/15      |               | 卡特兰板纸                                                   |
 | [神性之陨](https://ac.nowcoder.com/acm/problem/267934)       | 5/22      |               | https://blog.nowcoder.net/n/82256070063e4a25bbbb966f3ad4fccd |
 | [模板-扫描线](https://www.luogu.com.cn/problem/P5490)        | 5/28      | 提高+/省选−   | 扫描线板纸                                                   |
+| [D.Invertible_Bracket_Sequences](https://codeforces.com/contest/1976/problem/D) | 6/3       |               |                                                              |
