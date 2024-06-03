@@ -18,6 +18,15 @@
 | [最大二分图匹配](https://www.luogu.com.cn/problem/P3386)     | 5/15      |               | 匈牙利板纸                                                   |
 | [P1129 [ZJOI2007] 矩阵游戏](https://www.luogu.com.cn/problem/P1129) | 5/15      | 提高+ / 省选− | 注意到, 交换行列等价, 就按黑色块的 x,y 坐标连边, 跑最大二分图 |
 | [K.Bracket Sequence](https://codeforces.com/gym/103486/problem/K) | 5/15      |               | 卡特兰板纸                                                   |
+| [K - 树上问题](https://codeforces.com/gym/105158/problem/K)  | 5/20      |               | 树上 dp + 换根                                               |
+| [D. Polycarp and Div 3](https://codeforces.com/contest/1005/problem/D) | 5/21      |               | DP                                                           |
+| [ 美丽序列](https://ac.nowcoder.com/acm/contest/83524/F)     | 5/21      |               | 结论推导恶心的线段树                                         |
 | [神性之陨](https://ac.nowcoder.com/acm/problem/267934)       | 5/22      |               | https://blog.nowcoder.net/n/82256070063e4a25bbbb966f3ad4fccd |
+| [LH 想吃纸杯蛋糕](https://ac.nowcoder.com/acm/contest/83524/D) | 5/23      |               | DP向前枚举每位结尾合法的个数,可以注意到最多向前看 9 位, tle 不了 |
+| [ 正方形的个数](https://ac.nowcoder.com/acm/contest/83524/G) | 5/24      |               | 对于每个边长与 x,y 轴平行的正方形, 可以算出在其内部且四个点都在边上的正方形的个数 |
+| [ LZ的冠军之旅](https://ac.nowcoder.com/acm/contest/83524/E) | 5/24      |               | 二维费用的 djs, vis 要标记二维所有, 不能只标记一维           |
+| [ 小刻的字符串](https://ac.nowcoder.com/acm/contest/83524/C) | 5/25      |               | hash 预处理, 对于每位, 向后二分找合法串                      |
+| [秘境解码](https://ac.nowcoder.com/acm/contest/83524/B)      | 5/25      | 省选          | 扫描线                                                       |
 | [模板-扫描线](https://www.luogu.com.cn/problem/P5490)        | 5/28      | 提高+/省选−   | 扫描线板纸                                                   |
-| [D.Invertible_Bracket_Sequences](https://codeforces.com/contest/1976/problem/D) | 6/3       |               |                                                              |
+| [D.Invertible_Bracket_Sequences](https://codeforces.com/contest/1976/problem/D) | 6/3       |               | 当心 map::erase<br />括号合法不只有 num_of '(' == num_of ')'<br />还要满足每个前缀的 ( 都不少于 ) |
+| [C.Turtle_and_an_Incomplete_Sequence](https://codeforces.com/contest/1981/problem/C) | 6/3       |               | 构造 + lca,不是谁家 div2-C 出构造加 lca 啊 !                 |
