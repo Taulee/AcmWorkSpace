@@ -30,3 +30,5 @@
 | [模板-扫描线](https://www.luogu.com.cn/problem/P5490)        | 5/28      | 提高+/省选−   | 扫描线板纸                                                   |
 | [D.Invertible_Bracket_Sequences](https://codeforces.com/contest/1976/problem/D) | 6/3       |               | 当心 map::erase<br />括号合法不只有 num_of '(' == num_of ')'<br />还要满足每个前缀的 ( 都不少于 ) |
 | [C.Turtle_and_an_Incomplete_Sequence](https://codeforces.com/contest/1981/problem/C) | 6/3       |               | 构造 + lca,不是谁家 div2-C 出构造加 lca 啊 !                 |
+| [D. Turtle and Multiplication](https://codeforces.com/contest/1981/problem/D) | 6/3       |               | 构造 + 二分答案 + 欧拉路径, 当全用质数时, 就等价于每两个数之间无重边最多连多少条边, 先给出含自环的完全图, 跑欧拉路径. |
+
