@@ -44,4 +44,6 @@
 | [补给](https://www.matiji.net/exam/brushquestion/1/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/5       |                | 贪心                                                         |
 | [110串](https://www.matiji.net/exam/brushquestion/4/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/6       |                | 计数 DP, 注意初始化到了第二位, 故第一位的答案要特判          |
 | [跑步](https://www.matiji.net/exam/brushquestion/2/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/6       |                | 同余环境下求 lcm                                             |
+| [小度的极差](https://www.matiji.net/exam/brushquestion/5/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/6       |                | SB 题                                                        |
+| [D - 距离之比](https://codeforces.com/gym/105158/problem/D)  | 6/6       |                | labs 不是 abs 的 long double ! ! !<br />向量旋转后长度改变   |
 
