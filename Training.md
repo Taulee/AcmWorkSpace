@@ -46,4 +46,10 @@
 | [跑步](https://www.matiji.net/exam/brushquestion/2/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/6       |                | 同余环境下求 lcm                                             |
 | [小度的极差](https://www.matiji.net/exam/brushquestion/5/4498/F16DA07A4D99E21DFFEF46BD18FF68AD?from=1) | 6/6       |                | SB 题                                                        |
 | [D - 距离之比](https://codeforces.com/gym/105158/problem/D)  | 6/6       |                | labs 不是 abs 的 long double ! ! !<br />向量旋转后长度改变   |
+| [F - Fireworks](https://codeforces.com/gym/527921/problem/F) | 6/10      |                | 双指针, 注意到 r 最多往后探 sqrt 量级                        |
+| [E - L-craft (hard version)](https://codeforces.com/gym/527921/problem/E) | 6/11      |                | 世界上最屎的构造                                             |
+| [D - ''a'' String Problem](https://codeforces.com/contest/1984/problem/D) | 6/12      | 2000           | 考虑以不 'a' 开头的字符串为 t 的开头, 往后枚举. 答案加上最小的前面的 'a' 的数量.<br />和谐的时间复杂度: $\sum_{i=1}^{n}\frac{n}{i}=n~logn$ |
+| [D - Fixing a Binary String](https://codeforces.com/contest/1979/problem/D) | 6/12      | 1800           |                                                              |
+| [B - Dfs Order 0.5](https://codeforces.com/gym/105170/problem/B) | 6/12      |                | 树形 DP, 转移时考虑贪心, 子树全为偶树, 就全取最大值, 有奇子树时, 偶子树可以取任一值, 奇子树一半取偶入口, 一半取奇入口, 多余一个取与根相反 |
+| [D - Parallel Lines](https://codeforces.com/gym/105170/problem/D) | 6/13      |                | 计算几何                                                     |
 
