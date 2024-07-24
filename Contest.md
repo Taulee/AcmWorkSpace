@@ -5,5 +5,5 @@
 | [2024 National Invitational of CCPC (Zhengzhou)](https://codeforces.com/gym/105158) |  | 236/974 | BFHJKLM | DA |  | |
 | [The 2024 CCPC National Invitational Contest (Changchun) ](https://codeforces.com/gym/105170) |  | 23/180 | EGIL | BD |  | |
 | [The 2024 CCPC National Invitational Contest (Northeast)](https://codeforces.com/gym/105173) |  | 35/200 | ADEJL |  | M | |
-| (2024牛客暑期多校训练营1)[https://ac.nowcoder.com/acm/contest/81596#description] | | 510/1489 | ACH | ABI | BDJ | |
+|                                                              |             |          |          |         |                                                              | |
 

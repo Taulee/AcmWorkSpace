@@ -75,4 +75,6 @@
 | [成长，生命，幸福](https://acm.hdu.edu.cn/showproblem.php?pid=7452) | 7/22      |                | 表达式的系数和常速都有权重, 求权值的策略                     |
 | [在 A 里面找有 C 的 B](https://acm.hdu.edu.cn/showproblem.php?pid=7455) | 7/23      |                | AC自动机                                                     |
 | [Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | 7/24      |                | 考虑先填小的, 再填大的, 剩余的用大的置换小的                 |
+| [C - Squaring](https://codeforces.com/contest/1995/problem/C) | 7/24      |                | 先计算出初始两个数要满足升序后者要平方多少次 ( 可为负 ), 再加上前者的平方次数. |
+| [J-Rigged Games](https://ac.nowcoder.com/acm/contest/81598/J) | 7/24      |                | 在**循环队列**中做两次倍增                                   |
 
