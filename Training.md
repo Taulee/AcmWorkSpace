@@ -1,6 +1,8 @@
-| 打死不写                               |                     |      |      |      |      |
-| -------------------------------------- | ------------------- | ---- | ---- | ---- | ---- |
-| https://www.luogu.com.cn/problem/P6628 | 欧拉+最小生成树+... |      |      |      |      |
+| 打死不写                                      |                     |      |      |      |      |
+| --------------------------------------------- | ------------------- | ---- | ---- | ---- | ---- |
+| https://www.luogu.com.cn/problem/P6628        | 欧拉+最小生成树+... |      |      |      |      |
+| https://codeforces.com/contest/1988/problem/E | 笛卡尔树            |      |      |      |      |
+| https://codeforces.com/contest/1988/problem/F | 二维 FTT            |      |      |      |      |
 
 
 
@@ -52,4 +54,25 @@
 | [D - Fixing a Binary String](https://codeforces.com/contest/1979/problem/D) | 6/12      | 1800           |                                                              |
 | [B - Dfs Order 0.5](https://codeforces.com/gym/105170/problem/B) | 6/12      |                | 树形 DP, 转移时考虑贪心, 子树全为偶树, 就全取最大值, 有奇子树时, 偶子树可以取任一值, 奇子树一半取偶入口, 一半取奇入口, 多余一个取与根相反 |
 | [D - Parallel Lines](https://codeforces.com/gym/105170/problem/D) | 6/13      |                | 计算几何                                                     |
+| P3376 【模板】网络最大流                                     | 6/14      |                |                                                              |
+| [G - AtCoder Tour](https://atcoder.jp/contests/abc358/tasks/abc358_g) | 6/16      |                | 考虑 DP n+m 步内的最优解, 之后的最优解都是在原地蹦跶         |
+| [D - Beauty of the mountains](https://codeforces.com/contest/1982/problem/D) | 6/26      |                | 二维前缀和 + 裴蜀定理<br />两个数的任意倍数 (含正负) 之和只能等于 Gcd 的倍数, 多个数也一样. |
+| [C - Boring Day](https://codeforces.com/contest/1982/problem/C) | 6/26      |                | 二分做 DP 的转移                                             |
+| [D - Smithing Skill](https://codeforces.com/contest/1989/problem/D) | 7/15      | 1900           | 巧妙的 DP [blog](https://blog.csdn.net/qq_72715438/article/details/140431327?spm=1001.2014.3001.5501) |
+| [F - Non-academic Problem](https://codeforces.com/contest/1986/problem/F) | 7/15      | 1900           | Tarjan 找桥, 再遍历所有桥枚举答案                            |
+| [1204C - Anna, Svyatoslav and Maps](https://codeforces.com/problemset/problem/1204/C) | 7/15      | 1700           | floyd加贪心                                                  |
+| [D - The Omnipotent Monster Killer](https://codeforces.com/contest/1988/problem/D) | 7/16      |                | 注意到最多 log 回合就会删完, 就枚举每个点在第几回合删掉, 开一个``[n][log]``维的 DP |
+| [ A Bit Common](https://ac.nowcoder.com/acm/contest/81596/A) | 7/17      |                | 求逆元的条件, 杨辉三角                                       |
+| https://www.luogu.com.cn/problem/P2341                       | 7/17      |                | Tarjan + 缩点, 板                                            |
+| [ XOR of Suffix Sums](https://ac.nowcoder.com/acm/contest/81596/D) | 7/18      |                | 树状数组巧妙地 bit 位维护, 求 XOR                            |
+| [重量II](https://codeforces.com/gym/105266/problem/C)        | 7/18      |                | 从小到大枚举砝码重量, 加一个砝码 $a_i$ ,可测量区间从 [1,R] 变为 [1,R]+[a_i,R+a_i], 若 a_i <= R+1, 那么这个砝码就可选, 且每次选择最大的 a_i, 直到 R>=m |
+| [D - 子串](https://codeforces.com/gym/105266/problem/D)      | 7/18      |                | 枚举分界点, 找左右区间内的子串最大长度, 就不会有重合问题了   |
+| [翻转](https://codeforces.com/gym/105266/problem/E)          | 7/18      |                | 区间 DP 维护区间反转的结果. `dp[l][r]]=dp[l+1][r-1]+ans(交换a[l],a[r])`. |
+| [F - 首发阵容](https://codeforces.com/gym/105266/problem/F)  | 7/18      |                | 状压 DP. dp[x]=> x 中二进制的空缺位表示队伍缺的角色. 注意用临时数组存此次 DP的结果, 保证此次的继承不受此次自身结果的影响. |
+| [ 并](https://acm.hdu.edu.cn/showproblem.php?pid=7444)       | 7/20      |                | 二维前缀和+离散化<br />[链接](https://blog.csdn.net/qq_72715438/article/details/140569246) |
+| [P5043 【模板】树同构](https://www.luogu.com.cn/problem/P5043) | 7/20      |                | 树 hash                                                      |
+| [**Palindromic Expression**](https://atcoder.jp/contests/abc363/tasks/abc363_f) | 7/22      |                | 最多递归 log 层就有不合法出现, 所以复杂度是 sqrt*log         |
+| [成长，生命，幸福](https://acm.hdu.edu.cn/showproblem.php?pid=7452) | 7/22      |                | 表达式的系数和常速都有权重, 求权值的策略                     |
+| [在 A 里面找有 C 的 B](https://acm.hdu.edu.cn/showproblem.php?pid=7455) | 7/23      |                | AC自动机                                                     |
+| [Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | 7/24      |                | 考虑先填小的, 再填大的, 剩余的用大的置换小的                 |
 
