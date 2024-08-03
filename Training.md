@@ -77,4 +77,21 @@
 | [Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | 7/24      |                | 考虑先填小的, 再填大的, 剩余的用大的置换小的                 |
 | [C - Squaring](https://codeforces.com/contest/1995/problem/C) | 7/24      |                | 先计算出初始两个数要满足升序后者要平方多少次 ( 可为负 ), 再加上前者的平方次数. |
 | [J-Rigged Games](https://ac.nowcoder.com/acm/contest/81598/J) | 7/24      |                | 在**循环队列**中做两次倍增                                   |
+| [K-th Number](https://www.cnblogs.com/fallingdust/p/14333402.html) | 7/24      |                | 主席树                                                       |
+| [ Red Playing Cards](https://ac.nowcoder.com/acm/contest/81597/I) | 7/25      |                | 区间 DP, 不同区间有包含和重叠关系, 就先 dp 短的区间. 以 dp[l] 的 l 区分每个区间 |
+| [Sort4](https://ac.nowcoder.com/acm/contest/81599/C)         | 7/26      |                | 并查集维护乱序数字形成的环                                   |
+| [ MST](https://ac.nowcoder.com/acm/contest/81597/B)          | 7/26      |                | 根号分类找到所有子图的边, 再跑kruskal                        |
+| [ Bracket Sequences on Tree](https://acm.hdu.edu.cn/showproblem.php?pid=6647) | 7/27      |                | 树 hash + 换根 DP                                            |
+| [ 序列更新](https://acm.hdu.edu.cn/showproblem.php?pid=7475) | 7/29      |                | **随机数据的题**, 考虑对于枚举小于 $lim$ 的 $a[i]$, 用 b[i] 更新, 枚举大于 lim 的 b[i], 更新对应的 a[i], a[i] 会在较小的次数更新到 lim 之上, 此后就只用 O(lim) 的维护了. 操作次数期望为 $ \sum_{i>=0}(1-\frac{lim}{n})^{i+1}约等于\frac{n}{lim}$, 故复杂度为 $\frac{n^2}{lim}+n*lim$, 最优为 $lim=sqrt(n)$ |
+| [Coloring Game](https://codeforces.com/contest/1991/problem/E) | 7/30      |                | 判断二分图染色问题, 狗屎交互.                                |
+| [D - K-th Nearest](https://atcoder.jp/contests/abc364/tasks/abc364_d) | 7/30      |                | 二分 check 询问坐标两端的长度, check 里再二分找数量.         |
+| [ E - Maximum Glutton](https://atcoder.jp/contests/abc364/tasks/abc364_e) | 7/30      |                | 两个条件的 dp: `dp[MaxN][MaxX][MaxY]`来表示恰好为 x, y 选择的最大个数 k, 对于每个 i, 要更新 $x*y$ 个, 复杂度为$O(NXY)$, tle<br />**由于 dp 的内容 k 很小, 考虑交换 dp 的键值和内容:** `dp[MaxN][MaxK][MaxX]`表示对于每个 i, 选择 k  && x 时, y 的最小值. 复杂度为$O(NNX)$ |
+| [ E - Level Up](https://codeforces.com/contest/1997/problem/E) | 7/31      |                | [link](http://google.com) 根号分治或树状数组离线处理         |
+| [797E - Array Queries](https://codeforces.com/problemset/problem/797/E) | 7/31      | 2000           | 根号分治, 若 k 大于 $\sqrt{n}$, 那总操作次数一定不超过 $\sqrt{n}$, 直接暴力.对于 k 小于 $\sqrt{n}$, DP 预处理出所有可能. |
+| [1580C - Train Maintenance](https://codeforces.com/problemset/problem/1580/C) | 7/31      | 2200           | 根号分治, <br />$x+y>\sqrt{n}$ 时, 用差分存操作不超过 $\sqrt{n}$ 次.<br />$x+y<\sqrt{n}$ 时, 建$\sqrt{n}$个长度为$\sqrt{n}$的桶, 存储每个 $x+y$ 的循环求余于 $x+y$ 滚动贡献 |
+| [ Cake](https://ac.nowcoder.com/acm/contest/81601/A)         | 8/1       |                | 可选串为某个以 0 结尾的前缀串, 故 dfs 计算当前前缀的比例, 回溯时返回这个路径的最终比例, 奇偶分开选. |
+| [P6954 [NEERC2017] Connections](https://www.luogu.com.cn/problem/P6954) | 8/1       | 提高+/省选−    | 要求保留 2*n 条边不改变有向图的强连通性, 对每个强连通分量以某个点为起点, 跑外向生成树, 和内向生成树, 保留树上边, 其余都可以删除, (多组样例不初始化, 反手见祖宗) |
+| [BD202411染色](https://www.matiji.net/exam/brushquestion/11/4498/F16DA07A4D99E21DFFEF46BD18FF68AD) | 8/2       |                | 跑边双再缩点, 成为一个树, 跑树形 DP                          |
+| [600E - Lomsat gelral](https://codeforces.com/problemset/problem/600/E) | 8/3       | 2300           | 启发式合并                                                   |
 
+​	
