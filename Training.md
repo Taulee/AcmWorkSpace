@@ -116,5 +116,5 @@
 | [ Challenge NPC 2](https://ac.nowcoder.com/acm/contest/81601/F) | 9/6       |                | 菊花图无解考虑将森林链接成一个非菊花图, 再隔层串成蛇回形串.( 246 层串完串 135 层, 不能反过来). |
 | [K - Tasks](https://codeforces.com/gym/105173/problem/K)     | 9/9       |                | 按照 d 分层; 同层中, l 更小的 r 一定更小; 对照前一层时, 找到前一层中 l 小于当前 l 的最大值, 让当前区间的 r 最大化 ( 小于等于找到的区间的 r). 这一步要从后往前跑. 因为当前层中 l 更大的区间的 r 值也是一个限制条件. |
 | [786B - Legacy](https://codeforces.com/problemset/problem/786/B) | 9/10      | 2300           | 线段树优化建图, 然后对树的节点跑 djs                         |
-| [1601B - Frog Traveler](https://codeforces.com/problemset/problem/1601/B) | 9/11      | 1900           | 注意到每个点只有第一次到是最优的, 双端 bfs,                  |
+| [1601B - Frog Traveler](https://codeforces.com/problemset/problem/1601/B) | 9/11      | 1900           | 线段树优化建图, 再跑 01bfs<br />或: 注意到每个点只有第一次到是最优的, 双端 bfs, |
 
