@@ -93,5 +93,28 @@
 | [P6954 [NEERC2017] Connections](https://www.luogu.com.cn/problem/P6954) | 8/1       | 提高+/省选−    | 要求保留 2*n 条边不改变有向图的强连通性, 对每个强连通分量以某个点为起点, 跑外向生成树, 和内向生成树, 保留树上边, 其余都可以删除, (多组样例不初始化, 反手见祖宗) |
 | [BD202411染色](https://www.matiji.net/exam/brushquestion/11/4498/F16DA07A4D99E21DFFEF46BD18FF68AD) | 8/2       |                | 跑边双再缩点, 成为一个树, 跑树形 DP                          |
 | [600E - Lomsat gelral](https://codeforces.com/problemset/problem/600/E) | 8/3       | 2300           | 启发式合并                                                   |
+| [U41492 树上数颜色](https://www.luogu.com.cn/problem/U41492) | 8/3       |                | 启发式合并                                                   |
+| [Med-imize](https://codeforces.com/contest/1993/problem/D)   | 8/5       |                | 二分找中位数, check 用 DP.                                   |
+| [ Malfunctioning Typewriter](https://ac.nowcoder.com/acm/contest/81598/E) | 8/5       |                | 先建立字典树, 可知: 这个节点的贡献是从他到左右儿子的最大概率 $f[sonnuml,sonnumr]$, 每个节点独立.<br />`f[a][b]`表示恰好选择 a 个 1, b 个 0 的最大概率, 用 DP 求. |
+| [ 抓拍](https://acm.hdu.edu.cn/showproblem.php?pid=7467)     | 8/6       |                | 记录一下被我瞎搞过去的三分                                   |
+| [ 游走](https://acm.hdu.edu.cn/showproblem.php?pid=7459)     | 8/6       |                | 狗屎讨论                                                     |
+| [ 序列立方](https://acm.hdu.edu.cn/showproblem.php?pid=7438) | 8/7       |                | 等价于任选三个子序列, 有多少相同方案<br />三维 DP `f[i][j][k]`子序列表示以 i, j, k 结尾的方案数, 容斥维护答案的前缀和<br />二维情况下的容斥更好理解<br />[submit](https://acm.hdu.edu.cn/viewcode.php?rid=39540340) |
+| [ 安](https://ac.nowcoder.com/acm/contest/81600/E)           | 8/7       |                | 博弈, alice赢得所有`a[i]>b[i]`和上取整的 1/2 `a[i]==b[i]`    |
+| [Three Occurrences](https://codeforces.com/contest/1418/problem/G) | 8/7       | 2500           | 考虑给每个前缀和打上状态标签( <每个数的个数%3> 的多项式 hash), 然后双指针跑答案. // 也可以用数据结构维护, 很屎 |
+| [ 最优 K 子段](https://acm.hdu.edu.cn/showproblem.php?pid=7471) | 8/8       |                | <随机化数据>, <质数密度> **(n 以内质数有$\frac{n}{\ln n}$个, 随机抽到质数的概率为$\frac{1}{\ln n}$ )**.<br />直接二分答案, check => 从左到右 set 维护未使用部分的前缀和, 到第 i 位, 从小往大从 set 中取数, 取到质数即止, 期望 $\ln n$ 个. |
+| [延时操控](https://acm.hdu.edu.cn/showproblem.php?pid=7474)  | 8/9       |                | `DP[round][reduct_hp][x1][y1][x2][y2]`表示二者在对应坐标位的状态数量, 直接暴力转会 tle, 注意到二者的曼哈顿距离差不会超过 reduct_hp, 进而就可以把敌人的坐标表示为和初始的曼哈顿距离之差, 优化复杂度. <br />`dp[t][i][j][dx][dy][hp]`: 表示在第 t 个时间， 我方在(i,j) 位置且哈密顿距离之差为 (dx,dy)，敌方的血量减少了 hp |
+| [  cats 的二分答案](https://acm.hdu.edu.cn/showproblem.php?pid=7521) | 8/12      |                | 注意到: 可二分越界的次数只于区间长度有关, 故直接二分处理, 同时记忆化各种长度区间的答案.`ma[len][k] = dfs(llen, k - 1) + dfs(rlen, k) + 1;` |
+| [Two Convex Polygons](https://ac.nowcoder.com/acm/contest/81604/H) | 8/13      |                | 旋转卡壳. scanf 和 cin 不能混用                              |
+| [ Mr. Main and Windmills](https://ac.nowcoder.com/acm/contest/27249/C) | 8/14      |                | 致敬! 我 de 了五个小时的 bug 的计算几何                      |
+| [Operation Love](https://ac.nowcoder.com/acm/contest/27249/E) | 8/15      |                | 计算几何                                                     |
+| [ Doremy's IQ 2](https://ac.nowcoder.com/acm/contest/81605/K) | 8/15      |                | 遍历正数, 二分找负数的合法点, 负数一样跑一遍                 |
+| [ Tada!](https://ac.nowcoder.com/acm/contest/81605/L)        | 8/30      |                | 预处理出来 "00000" 到每个状态的最短步数, 对于任意的 "12345", 把它等价到 "00000", 就能知道它在 t 步内能到那些地方, 这样求得所有可行的集合, 求交集. 特例, n等于1时要分奇偶, t等于1时, 0不可达. |
+| [P4718 【模板】Pollard-Rho](https://www.luogu.com.cn/problem/P4718) | 9/2       |                |                                                              |
+| [ Haitang and Math](https://ac.nowcoder.com/acm/contest/81603/E) | 9/3       |                | Pollard Rho不断找出最大质因数, 分解出所有质因子. 在 dfs 找出所有因子, 迷之剪枝, (Miller–Rabin 素性测试次数开到 15 才可以稳过) |
+| [H - Sakurako's Test](https://codeforces.com/contest/2008/problem/H) | 9/5       |                | 实际就是找数组对 $X$ 取模后的中位数.<br />二分 $mid$, 就是找每一段 $k*x~到~k*x+mid$ 的数量和大于等于一半. 这部分复杂度为调和级数 $n\ln n$, 加上二分 mid, 和找每一段数量的二分, 两个 $log$, 会 tle.<br />优化: 找每一段的数量, 用前缀和预处理 ! ! ! |
+| [ Puzzle: Wagiri](https://ac.nowcoder.com/acm/contest/81601/D) | 9/5       |                | tarjan 跑边双, 再缩点, bfs 找分支, 从连通块往外延伸.         |
+| [ Challenge NPC 2](https://ac.nowcoder.com/acm/contest/81601/F) | 9/6       |                | 菊花图无解考虑将森林链接成一个非菊花图, 再隔层串成蛇回形串.( 246 层串完串 135 层, 不能反过来). |
+| [K - Tasks](https://codeforces.com/gym/105173/problem/K)     | 9/9       |                | 按照 d 分层; 同层中, l 更小的 r 一定更小; 对照前一层时, 找到前一层中 l 小于当前 l 的最大值, 让当前区间的 r 最大化 ( 小于等于找到的区间的 r). 这一步要从后往前跑. 因为当前层中 l 更大的区间的 r 值也是一个限制条件. |
+| [786B - Legacy](https://codeforces.com/problemset/problem/786/B) | 9/10      | 2300           | 线段树优化建图, 然后对树的节点跑 djs                         |
+| [1601B - Frog Traveler](https://codeforces.com/problemset/problem/1601/B) | 9/11      | 1900           | 注意到每个点只有第一次到是最优的, 双端 bfs,                  |
 
-​	
